@@ -22,11 +22,11 @@ Dealing with TensorFlow incompatibility with Python 3.7
 
 VERY IMPORTANT Once Miniconda has been downloaded you must create a Python 3.6 environment. TensorFlow does not currently (as of Jan 2019) support Python 3.7. So you must execute the following commands:
 
-conda create --name tensorflow python=3.6
+### conda create --name tensorflow python=3.6
 
 To enter this environment, you must use the following command (for Windows), this command must be done every time you open a new Anaconda/Miniconda terminal window:
 
-activate tensorflow
+### activate tensorflow
 
 For Mac, do this:
 
@@ -36,7 +36,7 @@ Installing Jupyter
 
 it is easy to install Jupyter notebooks with the following command:
 
-conda install jupyter
+### conda install jupyter
 
 Once Jupyter is installed, it is started with the following command:
 
@@ -45,17 +45,17 @@ jupyter notebook
 The following packages are needed for this course:
 
 conda install scipy
-pip install --upgrade sklearn
-pip install --upgrade pandas
-pip install --upgrade pandas-datareader
-pip install --upgrade matplotlib
-pip install --upgrade pillow
-pip install --upgrade requests
-pip install --upgrade h5py
-pip install --upgrade pyyaml
-pip install --upgrade psutil
-pip install --upgrade tensorflow==1.12.0
-pip install --upgrade keras==2.2.4
+### pip install --upgrade sklearn
+### pip install --upgrade pandas
+### pip install --upgrade pandas-datareader
+### pip install --upgrade matplotlib
+### pip install --upgrade pillow
+### pip install --upgrade requests
+### pip install --upgrade h5py
+### pip install --upgrade pyyaml
+### pip install --upgrade psutil
+### pip install --upgrade tensorflow==1.12.0
+### pip install --upgrade keras==2.2.4
 
 Notice that I am installing as specific version of TensorFlow. As of the current semester, this is the latest version of TensorFlow. It is very likely that Google will upgrade this during this semester. The newer version may have some incompatibilities, so it is important that we start with this version and end with the same.
 
